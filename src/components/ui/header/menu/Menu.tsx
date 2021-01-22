@@ -2,8 +2,8 @@ import React from 'react';
 import MenuItem from "./MenuItem";
 import {MenuItemProps} from "../Header";
 import styled from "styled-components";
-import configColor from "../../../../assets/containts/configColor";
-import {breakpointsMedia} from "../../../../assets/containts/breakpoints";
+import configColor from "assets/containts/configColor";
+import {breakpointsMedia} from "assets/containts/breakpoints";
 const menu = [
     {
         href: "/",

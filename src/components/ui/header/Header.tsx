@@ -1,10 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import logo from './../../../assets/images/logo.svg';
-import Image from "../../core/Image";
-import MenuItem from "./menu/MenuItem";
+import logo from 'assets/images/logo.svg';
+import Image from "components/core/Image";
 import styled from "styled-components";
-import {breakpointsMedia} from "../../../assets/containts/breakpoints";
+import {breakpointsMedia} from "assets/containts/breakpoints";
 import Menu from "./menu/Menu";
 export interface MenuItemProps {
     href: string,
